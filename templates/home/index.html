@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flodecactus&Chất lượng thời trang hàng đầu</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+<!------ Include the above in your HEAD tag ---------->
+</head>
+<body >
+<div>
+<nav class="navbar">
+<header>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Flodecactus</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="Home.php">Trang chủ</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Danh mục<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li ><a href="DanhMucSanPhamTheoLoai.php"></a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Nhà sản xuất <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li ><a href="DanhMucSanPhamTheoNhaSanXuat.php"></a></li>
+        </ul>
+      </li>
+      <li><a href="#">Liên hệ</a></li>
+<!--          {% if session['username']!=none %}-->
+<!--          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">{{ session['username'] }}<span class="caret"></span></a>-->
+<!--            <ul class="dropdown-menu">-->
+<!--              <li><a href="ThongTinCaNhan.php">Thông tin cá nhân</a></li>-->
+<!--              <li><a href="DangNhap.php"?>Đăng xuất</a></li>-->
+<!--            </ul>-->
+<!--          </li>-->
+<!--          {% else%}-->
+      <li><a href="DangNhap.php">{{session['username']}} <i class="fa fa-sign-in"></i></a></li>
+<!--          {% endif %}-->
+      <li><a href="GioHang.php">Giỏ hàng<span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+      <li><a href="#">{{results}}</a></li>
+    </ul>
+    <div class="search-container">
+    <form method="POST" action="XuliTimKiem.php">
+      <input type="text" placeholder="Tìm kiếm.." name="search">
+      <button type="submit" name="btnsearch"><span class="glyphicon glyphicon-search"></span></button>
+      </form>
+    </div>
+  </div>
+</header>
+</nav>
+</div>
+</body>
+</html>

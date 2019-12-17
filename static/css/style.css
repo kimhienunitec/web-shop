@@ -1,0 +1,166 @@
+.navbar{
+    background-color: black !important
+}
+.nav>li>a{
+        text-transform: uppercase;
+        color: #fff;
+    }
+ .nav>li>a:hover{
+  background-color: #008B8B!important;
+  transition-property: background;
+  transition-duration: 1.0s;
+  color: black;
+ }
+.search-container{
+    float: right;
+}
+.search-container button {
+  margin - top: 12px;
+  padding: 6px 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.search-container input[type=text] {
+  margin-top: 12px;
+  padding: 6px 10px;
+  font-size: 17px;
+  border: none;
+}
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+.Images{
+  background-image: url('../Images/Banner-31.jpg');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  height: 500px;
+}
+.Images:hover {
+  background-image: url('../Images/fashion-logo-design.jpg');
+  transition-property: background;
+  transition-duration: 3s;
+}
+footer{
+background-color:black;
+height: 200px;
+margin-top: 0px;
+max-width: 100%;
+width: 100%;
+clear: both;
+bottom: 0;
+}
+header{
+  position: absolute;
+  background:black;
+  width: 100%;
+  clear: both;
+}
+.noidungfooter{
+max-width: 100%;
+padding-top: 0;
+height: 200px;
+font-size: 16px;
+color: white;
+}
+.noidungfooter ul{
+  list-style-type: circle;
+}
+.noidungfooter a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 15px;
+}
+.noidungfooter a:hover{
+  text-decoration: none;
+}
+.columfirst{
+  width: 230px;
+  position: absolute;
+  margin-left: 200px;
+}
+.columtwo{
+  width: 270px;
+  position: absolute;
+  margin-left: 520px;
+}
+.columthree{
+  width: 400px;
+  position: absolute;
+  margin-left: 870px;
+
+}
+footer button{
+  border: 0;
+  background: #87D37C;
+  padding: 2px 15px;
+  color: white;
+  font-size: 18px;
+}
+input[type="email"]{
+width: 250px;
+height: 30px;
+padding: 2px;
+}
+.navbar-header:hover{
+  border-radius: 50%;
+  background-color:#FDF5E6;
+  transition-property: background,border-radius;
+  transition-duration: 2s;
+}
+.navbar-header a{
+  color: white;
+}
+.col-md-2 col-xs-4 :hover{
+ border-radius: 50%;
+ background-color: red;
+transition-property: background,border-radius;
+transition-duration: 3s;
+}
+.btn btn-primary{
+  color: red !important;
+}
+.nav nav-pills nav-stacked a{
+  background-color: red;
+}
+.caption{
+	background-color:#528B8B;
+}
+.btn btn-light{
+	color:white !important;
+}
+.ThongTin{
+  margin-top:50px;
+  margin-right: 200px;
+  float: middle;
+}
+.panel
+{
+  width: 800px;
+}
+.HinhAnhSanPham{
+  float: left;
+  width: 40%;
+}
+.ThongTinSanPham{
+  float: right;
+  width: 60%;
+}
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+ul:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+li {
+    line-height: 18px;
+    transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+}
